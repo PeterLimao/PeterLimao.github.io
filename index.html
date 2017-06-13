@@ -1,344 +1,180 @@
 <!DOCTYPE html>
-<!--[if lte IE 8 ]>
-<html class="ie" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
-<![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!-->
-<!--
-***************  *      *     *
-      8          *    *       *
-      8          *  *         *
-      8          **           *
-      8          *  *         *
-      8          *    *       *
-      8          *      *     *
-      8          *        *   ***********    -----Theme By Kieran(http://go.kieran.top)
--->
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
-<!--<![endif]-->
-
+<html>
 <head>
-  <title>PeterLimao</title>
-  <!-- Meta data -->
-    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" >
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="generator" content="PeterLimao">
-    <meta name="author" content="Peter.Li">
-    <meta name="description" content="这家伙很懒，什么都没有留下" />
-    <meta name="keywords" content="" />
+    <meta charset="UTF-8">
+    <title>李昴的前端工程师简历</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="dist/css/style.min.css">
+    <link rel="stylesheet" href="dist/css/fontello.min.css">
+    <link rel="stylesheet" href="lib/zoom.css">
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-    <!-- Favicon, (keep icon in root folder) -->
-    <link rel="Shortcut Icon" href="/img/favicon.ico" type="image/ico">
+        ga('create', 'UA-48084758-4', 'auto');
+        ga('send', 'pageview');
 
-    <link rel="alternate" href="/atom.xml" title="PeterLimao" type="application/atom+xml">
-    <link rel="stylesheet" href="/css/all.css" media="screen" type="text/css">
-	
-    <link rel="stylesheet" href="/highlightjs/vs.css" type="text/css">
-    
-    
-
-    <!-- Custom stylesheet, (add custom styles here, always load last) -->
-    <!-- Load our stylesheet for IE8 -->
-    <!--[if IE 8]>
-    <link rel="stylesheet" type="text/css" href="/css/ie8.css" />
-    <![endif]-->
-
-    <!-- Google Webfonts (Monserrat 400/700, Open Sans 400/600) -->
-    <link href='//fonts.useso.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-    <link href='//fonts.useso.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
-
-    <!-- Load our fonts individually if IE8+, to avoid faux bold & italic rendering -->
-    <!--[if IE]>
-    <link href='http://fonts.useso.com/css?family=Montserrat:400' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.useso.com/css?family=Montserrat:700' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.useso.com/css?family=Open+Sans:400' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.useso.com/css?family=Open+Sans:600' rel='stylesheet' type='text/css'>
-    <![endif]-->
-
-    <!-- jQuery | Load our jQuery, with an alternative source fallback to a local version if request is unavailable -->
-    <script src="/js/jquery-1.11.1.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/jquery-1.11.1.min.js"><\/script>')</script>
-
-    <!-- Load these in the <head> for quicker IE8+ load times -->
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-    <script src="/js/html5shiv.min.js"></script>
-    <script src="/js/respond.min.js"></script>
-    <![endif]-->
-
-
-
-
-
-
-
-
-
-
-  
-  
-  
-
-  
-  <style>.col-md-8.col-md-offset-2.opening-statement img{display:none;}</style>
+    </script>
 </head>
-
-<!--
-<body class="home-template">
--->
-<body id="index" class="lightnav animsition">
-
-      <!-- ============================ Off-canvas navigation =========================== -->
-
-    <div class="sb-slidebar sb-right sb-style-overlay sb-momentum-scrolling">
-        <div class="sb-close" aria-label="Close Menu" aria-hidden="true">
-            <img src="/img/close.png" alt="Close"/>
-        </div>
-        <!-- Lists in Slidebars -->
-        <ul class="sb-menu">
-            <li><a href="/" class="animsition-link" title="Home">Home</a></li>
-            <li><a href="/archives" class="animsition-link" title="archive">archives</a></li>
-            <!-- Dropdown Menu -->
-			 
-            <li>
-                <a class="sb-toggle-submenu">Works<span class="sb-caret"></span></a>
-                <ul class="sb-submenu">
-                    
-                        <li><a href="/" target="_BLANK" class="animsition-link">AAA</a></li>
-                    
-                        <li><a href="/atom.xml" target="_BLANK" class="animsition-link">BBB</a></li>
-                    
-                </ul>
-            </li>
-            
-            
-            
-            <li>
-                <a class="sb-toggle-submenu">Links<span class="sb-caret"></span></a>
-                <ul class="sb-submenu">
-                    
-                    <li><a href="http://go.kieran.top/" class="animsition-link">Kieran</a></li>
-                    
-                    <li><a href="http://domain.com/" class="animsition-link">Name</a></li>
-                    
-                </ul>
-            </li>
-            
-        </ul>
-        <!-- Lists in Slidebars -->
-        <ul class="sb-menu secondary">
-            <li><a href="/about.html" class="animsition-link" title="about">About</a></li>
-            <li><a href="/atom.xml" class="animsition-link" title="rss">RSS</a></li>
-        </ul>
-    </div>
-    
-    <!-- ============================ END Off-canvas navigation =========================== -->
-
-    <!-- ============================ #sb-site Main Page Wrapper =========================== -->
-
-    <div id="sb-site">
-        <!-- #sb-site - All page content should be contained within this id, except the off-canvas navigation itself -->
-
-        <!-- ============================ Header & Logo bar =========================== -->
-
-        <div id="navigation" class="navbar navbar-fixed-top">
-            <div class="navbar-inner">
-                <div class="container">
-                    <!-- Nav logo -->
-                    <div class="logo">
-                        <a href="/" title="Logo" class="animsition-link">
-                         <img src="/img/logo.png" alt="Logo" width="35px;"/> 
-                        </a>
-                    </div>
-                    <!-- // Nav logo -->
-                    <!-- Info-bar -->
-                    <nav>
-                        <ul class="nav">
-                            <li><a href="/" class="animsition-link">PeterLimao</a></li>
-                            <li class="nolink"><span>Always </span>Creative.</li>
-                            
-                            <li><a href="https://github.com/" title="Github" target="_blank"><i class="icon-github"></i></a></li>
-                            
-                            
-                            <li><a href="https://twitter.com/" title="Twitter" target="_blank"><i class="icon-twitter"></i></a></li>
-                            
-                            
-                            <li><a href="https://www.facebook.com/" title="Facebook" target="_blank"><i class="icon-facebook"></i></a></li>
-                            
-                            
-                            <li><a href="https://google.com/" title="Google-Plus" target="_blank"><i class="icon-google-plus"></i></a></li>
-                            
-                            
-                            <li><a href="http://weibo.com/" title="Sina-Weibo" target="_blank"><i class="icon-sina-weibo"></i></a></li>
-                            
-                            <li class="nolink"><span>Welcome!</span></li>
-                        </ul>
-                    </nav>
-                    <!--// Info-bar -->
-                </div>
-                <!-- // .container -->
-                <div class="learnmore sb-toggle-right">More</div>
-                <button type="button" class="navbar-toggle menu-icon sb-toggle-right" title="More">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar before"></span>
-                <span class="icon-bar main"></span>
-                <span class="icon-bar after"></span>
-                </button>
-            </div>
-            <!-- // .navbar-inner -->
-        </div>
-
-        <!-- ============================ Header & Logo bar =========================== -->
-
-        <!-- ============================ Hero Image =========================== -->
-
-        <section id="hero" class="scrollme">
-            <div class="container-fluid element-img" style="background: url(/img/bg_img.jpg) no-repeat center center fixed;background-size: cover">
-                <div class="row">
-                    <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 vertical-align cover boost text-center">
-                        <div class="center-me animateme" data-when="exit" data-from="0" data-to="0.6" data-opacity="0" data-translatey="100">
-                            <div>
-                            	
-                                <h2>YOU'VE MADE A <span>BRAVE</span> DECISION, WELCOME.</h2>
-                                <p></p>
-				    			
-                                <h2></h2>
-                                <p>每一个不曾起舞的日子都是对生命的辜负。</p>
-				    			
-
-                            </div>
-                        </div>
-                    </div>
-                    <!-- // .col-md-12 -->
-                </div>
-                <div class="herofade beige-dk"></div>
-            </div>
-        </section>
-
-        <!-- Height spacing helper -->
-        <div class="heightblock"></div>
-        <!-- // End height spacing helper -->
-
-        <!-- ============================ END Hero Image =========================== -->
-      <!-- ============================ Content =========================== -->
-
-<section id="intro">
+<body>
     <div class="container">
-        
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2 opening-statement">
-                <div class="col-md-4">
-                    <h3><a href="/2016/05/18/test/">test</a></h3>
-                    <span>
-                        <span class="post-meta">
-      <time datetime="2016-05-18T14:08:51.000Z" itemprop="datePublished">
-          2016-05-18
-      </time>
-    
-</span>
-                    </span>
-                </div>
-                <div class="col-md-8">
-                    <p>
-                      
-                        
-                      
-                    </p>
-                    
-                    <p class="pull-right readMore">
-                        <a href="/2016/05/18/test/">Read More...</a>
-                    </p>
-                    
-                </div>
-                <div class="clearfix"></div>
-                <hr class="nogutter">
+        <div class="sidebar">
+            <div class="title">
+                <img src="./img/resume-head.jpg" data-action="zoom">
+                <h1>李昴</h1>
+            </div>
+            <ul class="side-info">
+                <li class="someRight">
+                    <dt><i class="icon-bookmark"></i>联系方式</dt>
+                    <dd><i class="icon-phone-1"></i>电话: 18581842813</dd>
+                    <dd><i class="icon-mail-alt"></i>邮箱: <a href="mailto:limao1993asd@hotmail.com" target="_blank">limao1993asd@hotmail.com</a></dd>
+                    <dd><i class="icon-wechat"></i>微信: limao1993asd</dd>
+                    <dd><i class="icon-qq"></i>QQ: 375989311</dd>
+                </li>
+                <li class="someRight">
+                    <dt><i class="icon-bookmark"></i>求职信息</dt>
+                    <dd>岗位: 前端工程师</dd>
+                    <dd>工作地点: 北京</dd>
+                    <dd>期望月薪: 12k~15k</dd>
+                </li>
+            </ul>
+            <div class="note">
             </div>
         </div>
-        
-        <nav class="pagination" role="pagination">
-          
-          
-        </nav>
+        <div class="main">
+            <ul class="main-info">
+                <li class="someRight">
+                    <dt><i class="icon-bookmark"></i>基本信息</dt>
+                    <dd><strong>个人信息: </strong><span>李昴/男</span></dd>
+                    <dd><strong>生日: </strong><span>1993/03/05</span></dd>
+                    <dd><strong>毕业院校: </strong><span>重庆理工大学</span></dd>
+                    <dd><strong>所属专业: </strong><span>软件工程</span></dd>
+                    <dd><strong>工作年限: </strong><span>一年半</span></dd>
+                    <dd><strong>GitHub: </strong><a href="https://github.com/PeterLimao" target="_blank">www.github.com/PeterLimao</a></dd>
+                </li>
+                <li>
+                    <dt><i class="icon-bookmark"></i>项目与工作经验</dt>
+                    <h3><span>成都中科创达科技有限公司（2015.7 - 2016.11）</span></h3>
+                    <ul class="exp">
+                        <li>
+                            <div class="circle"></div>
+                            <h4>善林项目</h4>
+                            <p>技术栈：php+html+css+js+jquery</p>
+                            <p>为日本善林公司开发的项目，属于生活信息类的Hybird的App, 我主要负责星座信息类模块的开发。</p>
+                            <p>项目采用原生的php模板开发，我参与了部分php功能的开发和全部的前端开发任务，期间用原生js给项目团队封装了一个滚动条组件。</p>
+                        </li>
+                        <li>
+                            <div class="circle"></div>
+                            <h4>ACADINE账号管理系统</h4>
+                            <p>技术栈：gulp+less+requireJs</p>
+                            <p>为北京acadine开发的账号管理系统，我主要负责前端部分的项目构建工作并参与部分模块的开发。</p>
+                            <p>gulp负责任务工作流的管理，实现代码的压缩合并，requireJs负责js模块化管理，less负责组织css代码。</p>
+                        </li>
+                    </ul>
+                    <h3><span>北京比特律动科技有限公司（2016.11 - 至今)(创业)</span></h3>
+                    <ul class="exp">
+                        <li>
+                            <div class="circle"></div>
+                            <h4>红呗网红助手</h4>
+                            <p>技术栈: es6+webpack2+vue2+vuex2+vue-router2+less+echarts</p>
+                            <p>产品依托于微信公众号之上，我独立负责整个前端，整个项目的采用vue2.0最新全家桶进行开发。</p>
+                            <p>项目经历过vue1到vue2的升级重构，1次大的页面改动，算是一个比较长线的项目。网红助手主要面向主播，向其提供直播数据服务。</p>
+                            <p>其中包括主播个人的精确到单场直播的数据追踪，主播影响力榜单，主播家族管理等几个大的部分。更多详细可以关注红呗网红助手查看。</p>
+                        </li>
+                        <li>
+                            <div class="circle"></div>
+                            <h4>红呗网红助手小程序版</h4>
+                            <p>公众号红呗网红助手的精简版本，只提供了榜单功能，但是新增加了主播搜索功能。</p>
+                            <p>
+                              1月份小程序正式发布那天算是蹭上了一波热度，360小程序工具类排名第一个，进入了‘知小程序’的一周小程序的榜单。
+                              后因公司内部原因停止了迭代。
+                            </p>
+                        </li>
+                        <li>
+                            <div class="circle"></div>
+                            <h4>红呗选品助手</h4>
+                            <p>技术栈: es6+webpack2+vue2+vuex2+vue-router2+less</p>
+                            <p>产品依托于微信公众号之上，我独立负责整个前端，整个项目的采用vue2.0最新全家桶进行开发。</p>
+                            <p>基于淘宝直播的每日的热推商品，通过与商家的对接，为主播提供直播商品的选品服务，主打精品化商品运营。</p>
+                        </li>
+                        <li>
+                            <div class="circle"></div>
+                            <h4>红呗管理后台</h4>
+                            <p>技术栈: laravel+jquery+vue+echarts+AdminLTE</p>
+                            <p>红呗网红助手和红呗选品助手的管理后台，包括了主播管理，商品管理，店铺管理几个大的部分。我参与了部分模块的开发。</p>
+                        </li>
+                    </ul>
+                    <h3>个人项目</h3>
+                    <ul class="exp">
+                        <li>
+                            <div class="circle"></div>
+                            <h4>
+                                <span>GitStars</span>
+                            </h4>
+                            <p>技术栈: es6+webpack+vue+vuex+vue-router</p>
+                            <p>
+                              <span>链接：</span>
+                              <a href="https://github.com/PeterLimao/gitstars-vue">
+                                https://github.com/PeterLimao/gitstars-vue
+                              </a>
+                            </p>
+                            <p>聚合了Github每日Trending的信息的webapp, 包括每日趋势项目查看，项目详情查看，项目搜索功能等。</p>
+                            <p>目的在于向用户提供一个第三方访问github的信息的客户端，本身服务器对github的一些数据做了缓存，加快访问。</p>
+                            <p>目前项目因为后端server挂掉已经下线:(</p>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <dt><i class="icon-bookmark"></i>技能清单</dt>
+                    <h3>前端</h3>
+                    <ul class="exp">
+                        <li>
+                            <div class="circle"></div>
+                            <h4>HTML / CSS</h4>
+                            <p>能够编写语义化的 HTML，模块化的 CSS，完成较复杂的布局</p>
+                            <p>了解Bootstrap, AdminLTE等css框架的使用</p>
+                            <p>熟悉 Less PostCSS Autoprefixer 等CSS预处理和后处理工具</p>
+                        </li>
+                        <li>
+                            <div class="circle"></div>
+                            <h4>JavaScript</h4>
+                            <p>熟悉原生 Javascript，能脱离 jQuery 等类库编码</p>
+                            <p>熟悉es6的语法，能够使用es6进行开发</p>
+                            <p>能运用模块化、面向对象的方式编程</p>
+                            <p>熟悉基于vue+vue-router+vuex的spa开发</p>
+                            <p>了解 React jQuery 的使用</p>
+                        </li>
+                        <li>
+                            <div class="circle"></div>
+                            <h4>其他</h4>
+                            <p>熟悉 Webpack Gulp 等前端自动化工具</p>
+                            <p>了解前端安全、性能优化方面的一些知识</p>
+                        </li>
+                    </ul>
+                    <h3>后端</h3>
+                    <ul class="exp">
+                        <li>
+                            <div class="circle"></div>
+                            <h4>Node.js</h4>
+                            <p>了解 Node.js 的开发，用过express做过一些简单的请求代理服务</p>
+                        </li>
+                        <li>
+                            <div class="circle"></div>
+                            <h4>php</h4>
+                            <p>了解 php 的开发，使用过laravel做过一些后台server的服务开发</p>
+                        </li>
+                        <li>
+                            <div class="circle"></div>
+                            <h4>python</h4>
+                            <p>了解 python 的开发，使用python2.7写过一些数据处理的脚本</p>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
     </div>
-</section>
-<section id="statement">
-    <div class="container text-center wow fadeInUp" data-wow-delay="0.5s">
-        <div class="row">
-            <p>生命不熄，搬砖不止。</p>
-        </div>
-    </div>
-</section>
-<!-- ============================ END Content =========================== -->
-
-      
-<!-- ============================ Footer =========================== -->
-
-<footer>
-    <div class="container">
-            <div class="copy">
-                <p>
-                    &copy; 2014<script>new Date().getFullYear()>2010&&document.write("-"+new Date().getFullYear());</script>, Content By Peter.Li. All Rights Reserved.
-                </p>
-                <p>Theme By <a href="//go.kieran.top" style="color: #767D84">Kieran</a></p>
-            </div>
-            <div class="social">
-                <ul>
-                    
-                    <li><a href="https://github.com/" title="Github" target="_blank"><i class="icon-github"></i></a>&nbsp;</li>
-                    
-                    
-                    <li><a href="https://twitter.com/" title="Twitter" target="_blank"><i class="icon-twitter"></i></a>&nbsp;</li>
-                    
-                    
-                    <li><a href="https://www.facebook.com/" title="Facebook" target="_blank"><i class="icon-facebook"></i></a>&nbsp;</li>
-                    
-                    
-                    <li><a href="https://google.com/" title="Google-Plus" target="_blank"><i class="icon-google-plus"></i></a>&nbsp;</li>
-                    
-                    
-                    <li><a href="http://weibo.com/" title="Sina-Weibo" target="_blank"><i class="icon-sina-weibo"></i></a>&nbsp;</li>
-                    
-                </ul>
-            </div>
-            <div class="clearfix"> </div>
-        </div>
-</footer>
-
-<!-- ============================ END Footer =========================== -->
-      <!-- Load our scripts -->
-        
-<!-- Resizable 'on-demand' full-height hero -->
-<script type="text/javascript">
-    
-    var resizeHero = function () {
-        var hero = $(".cover,.heightblock"),
-            window1 = $(window);
-        hero.css({
-            "height": window1.height()
-        });
-    };
-    
-    resizeHero();
-    
-    $(window).resize(function () {
-        resizeHero();
-    });
-</script>
-<script src="/js/plugins.min.js"></script><!-- Bootstrap core and concatenated plugins always load here -->
-<script src="/js/jquery.flexslider-min.js"></script><!-- Flexslider plugin -->
-<script src="/js/scripts.js"></script><!-- Theme scripts -->
-
-<!-- Initiate flexslider plugin -->
-<script type="text/javascript">
-    $(document).ready(function($) {
-      $('.flexslider').flexslider({
-        animation: "fade",
-        prevText: "",
-        nextText: "",
-        directionNav: true
-      });
-    });
-</script>
-
+    <script src="lib/zoom.min.js"></script>
 </body>
 </html>
